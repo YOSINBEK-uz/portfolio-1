@@ -1,5 +1,5 @@
 import React from "react";
-import yosinbek from "../assets/yosinbek.png"
+import yosinbek from "../assets/yosinxon.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
@@ -44,11 +44,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-[350px] h-[350px] rounded-[50%] overflow-hidden duration-200">
           <img
             src={yosinbek}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className=" mx-auto w-2/3 md:w-full hover:scale-[1.2] duration-200 "
           />
         </div>
       </div>
