@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Telegram <BsTelegram size={30} />
         </>
       ),
-      href: "",
+      href: "https://t.me/Tolipov_s1_squad",
     },
    
   ];
