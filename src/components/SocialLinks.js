@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsTelegram } from "react-icons/bs";
+
 
 const SocialLinks = () => {
   const links = [
@@ -23,6 +23,15 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/YOSINBEK-uz",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Telegram <BsTelegram size={30} />
+        </>
+      ),
+      href: "",
     },
    
   ];
