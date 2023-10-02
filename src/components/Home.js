@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-[350px] h-[350px] rounded-[50%] overflow-hidden duration-200">
+        <div className="w-[350px] h-[350px]  overflow-hidden duration-200">
           <img
             src={yosinbek}
             alt="my profile"
