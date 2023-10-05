@@ -8,14 +8,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-r from-violet-500 to-fuchsia-500"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Junior Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-300 py-4 max-w-md">
           <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -48,7 +48,7 @@ const Home = () => {
           <img
             src={yosinbek}
             alt="my profile"
-            className=" mx-auto w-2/3 md:w-full hover:scale-[1.2] duration-200 "
+            className=" mx-auto w-2/3 md:w-full hover:scale-[0.80] duration-200 "
           />
         </div>
       </div>
