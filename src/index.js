@@ -9,6 +9,7 @@ import Sabzavotlar from "./pages/Sabzavotlar";
 import Loru from "./pages/Loru";
 import Travel from "./pages/Travel";
 import Medical from "./pages/Medical";
+import Concat from "./pages/Concat";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route path="/loru" element={<Loru />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/medical" element={<Medical />} />
+        <Route path="/concat" element={<Concat />} />
       </Routes>
 
     </BrowserRouter>

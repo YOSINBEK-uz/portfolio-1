@@ -7,7 +7,7 @@ function Medical() {
     <div className="w-full h-[400px] flex items-center justify-center  ">
         <img className='w-[80%] md:w-[65%] h-[300px] md:hover:w-[80%] hover:h-full duration-200 object-cover ' src={medical} alt="" />
     </div>
-    <div className="w-full h-[400px] p-10 md:pl-40 md:pr-40 xl:pl-[240px] xl:pr-[240px] ">
+    <div className="w-full h-[500px] p-10 md:pl-40 md:pr-40 xl:pl-[240px] xl:pr-[240px] ">
         <div className="w-full h-full">
             <h1 className='text-4xl sm:text-5xl font-bold text-white'>Creators:
                 <TypeAnimation
