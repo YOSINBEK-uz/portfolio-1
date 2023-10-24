@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-r from-violet-500 to-fuchsia-500"
+      className=" h-[400px] sm:h-[500px] w-full md:h-screen "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -44,11 +44,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-[350px] h-[350px]  overflow-hidden duration-200">
+        <div className="md:w-[350px] md:h-[350px] rounded-full bg-white hidden md:flex  overflow-hidden duration-200">
           <img
             src={yosinbek}
             alt="my profile"
-            className=" mx-auto w-2/3 md:w-full hover:scale-[0.80] duration-200 "
+            className=" mx-auto hidden md:flex md:w-full hover:scale-[1.15] duration-200 "
           />
         </div>
       </div>
