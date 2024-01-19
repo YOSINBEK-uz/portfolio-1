@@ -6,6 +6,8 @@ import youtube from "../assets/portfolio/Youtube.png"
 import Loru from "../assets/portfolio/Loru.png"
 import medical from "../assets/portfolio/medical.png"
 import { Link } from "react-router-dom";
+
+import 'aos/dist/aos.css'
 const Portfolio = () => {
   const portfolios = [
     {
@@ -45,7 +47,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className=" w-full text-white md:h-screen"
+      className=" w-full text-white md:h-screen" data-aos="zoom-in-left"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">

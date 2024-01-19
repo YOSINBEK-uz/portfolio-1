@@ -1,9 +1,11 @@
 import React from "react";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const About = () => {
+
   return (
     <div
-      name="about"
+      name="about" data-aos="zoom-in"
       className="w-full h-screen  text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">

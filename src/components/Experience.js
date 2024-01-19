@@ -9,8 +9,10 @@ import tailwind from "../assets/tailwind.png";
 import Sass from "../assets/Sass.png";
 import Scss from "../assets/sccs.png";
 import boot from "../assets/boot.png";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const Experience = () => {
+  
   const techs = [
     {
       id: 1,
@@ -71,7 +73,9 @@ const Experience = () => {
 
   return (
     <div name='experience'
-     className="  w-full lg:h-screen">
+    data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" className="  w-full lg:h-screen">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">

@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import yosinbek from "../assets/yosinxon.png"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { TypeAnimation } from 'react-type-animation';
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const Home = () => {
+  useEffect(()=> {
+Aos.init({duration: 2000})
+  }, [])
   return (
     <div
       name="home"
       className=" h-[400px] sm:h-[500px] w-full md:h-screen "
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
+        <div data-aos="fade-right"  className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Junior Developer
           </h2>
@@ -44,7 +49,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:w-[350px] md:h-[350px] rounded-full bg-white hidden md:flex  overflow-hidden duration-200">
+        <div data-aos="fade-left" className="md:w-[350px] md:h-[350px] rounded-full bg-white hidden md:flex  overflow-hidden duration-200">
           <img
             src={yosinbek}
             alt="my profile"
