@@ -17,6 +17,7 @@ Aos.init({duration: 2000})
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div data-aos="fade-right"  className="flex flex-col justify-center h-full">
+          
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Junior Developer
           </h2>
@@ -53,7 +54,7 @@ Aos.init({duration: 2000})
           <img
             src={yosinbek}
             alt="my profile"
-            className=" mx-auto hidden md:flex md:w-full hover:scale-[1.15] duration-200 "
+            className=" mx-auto hidden md:flex md:w-full hover:scale-[1.15] scale-[1.05] duration-200 "
           />
         </div>
       </div>

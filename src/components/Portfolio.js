@@ -59,16 +59,17 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src ,href }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+          <Link to={href}>   
+          <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
              
                <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105 w-full h-full"
               />  
-             <Link to={href}><button>Info</button></Link>
+            
              
-            </div>
+            </div></Link>
           ))}
         </div>
       </div>
